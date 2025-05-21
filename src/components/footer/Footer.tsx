@@ -1,5 +1,5 @@
 import {
-  FacebookLogoIcon,
+  GithubLogoIcon,
   InstagramLogoIcon,
   LinkedinLogoIcon,
 } from "@phosphor-icons/react";
@@ -16,9 +16,21 @@ function Footer() {
           </p>
           <p className="text-lg"> Acesse minhas redes sociais</p>
           <div className="flex gap-2">
-            <LinkedinLogoIcon size={48} weight="bold"></LinkedinLogoIcon>
-            <InstagramLogoIcon size={48} weight="bold"></InstagramLogoIcon>
-            <FacebookLogoIcon size={48} weight="bold"></FacebookLogoIcon>
+            <a
+              href="https://www.linkedin.com/in/giulio-arantes/"
+              target="_blank"
+            >
+              <LinkedinLogoIcon size={48} weight="bold" />
+            </a>
+            <a
+              href="https://www.instagram.com/arantesgabriel_/"
+              target="_blank"
+            >
+              <InstagramLogoIcon size={48} weight="bold" />
+            </a>
+            <a href="https://github.com/GiulioArantes" target="_blank">
+              <GithubLogoIcon size={48} weight="bold" />
+            </a>
           </div>
         </div>
       </div>
