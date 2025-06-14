@@ -2,7 +2,9 @@
 
 ![Blog-Pessoal Main Page](https://i.postimg.cc/QMdtSBhw/blogpessoal.png)
 
-O Blog-Pessoal é uma aplicação web intuitiva para postagem e divulgação de conteúdos diversos, construída com React e Spring Boot. Permite que os usuários cadastrem, atualizem e excluam postagens e temas, além de visualizar atualizações de forma simples e eficiente.
+O Blog-Pessoal é uma aplicação web intuitiva para postagem e divulgação de conteúdos diversos, construída com React e Spring Boot. Permite que os usuários cadastrem, atualizem e excluam postagens e temas, além de visualizar atualizações de forma simples e eficiente. 
+
+**Você pode acessar o site clicando [aqui](https://blog-pessoal-frontend-bice.vercel.app/).**
 
 ## ✨ Funcionalidades
 
