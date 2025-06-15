@@ -6,6 +6,11 @@ O Blog-Pessoal é uma aplicação web intuitiva para postagem e divulgação de 
 
 **Você pode acessar o site clicando [aqui](https://blog-pessoal-frontend-bice.vercel.app/).**
 
+### 🔗 **Sobre o Backend**
+>🔧 **Observação:** Para que a aplicação funcione corretamente, é necessário que o backend esteja em execução. Você pode acessar a API hospedada clicando [aqui](https://blogpessoal-nngj.onrender.com/).
+
+>📂 Se desejar visualizar o código-fonte, entender a estrutura ou rodar o backend localmente, acesse o repositório clicando neste [link](https://github.com/GiulioArantes/blog-pessoal).
+
 ## ✨ Funcionalidades
 
 O sistema oferece uma visão completa e organizada do Blog:
@@ -32,7 +37,11 @@ Este projeto foi construído com uma stack moderna, performática e escalável:
     * [**Tailwind CSS**](https://tailwindcss.com/) - Framework de utilitários para estilização rápida e responsiva.
 * **Backend & Banco de Dados:**
     * [**Spring Boot**](https://spring.io/projects/spring-boot) - Framework Java para aplicações web robustas e seguras.
-    * [**PostgreSQL**](https://www.postgresql.org/) - Banco de dados relacional utilizado para persistência dos dados.
+    * [**PostgreSQL**](https://www.postgresql.org/) - Banco de dados relacional utilizado no ambiente de **produção**.
+    * [**MySQL**](https://www.mysql.com/) - Banco de dados relacional utilizado no ambiente de **desenvolvimento**.
+* **Hospedagem e Deploy:**
+    * [**Vercel**](https://vercel.com/) - Plataforma utilizada para o deploy do **front-end**.
+    * [**Render**](https://render.com/) — Plataforma utilizada para hospedar o **backend**.
 
 ## ⚙️ Como Rodar o Projeto
 
@@ -40,7 +49,7 @@ Siga os passos abaixo para executar o projeto em seu ambiente local.
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/GiulioArantes/blog-pessoal-frontend.git](https://github.com/GiulioArantes/blog-pessoal-frontend.git)
+git clone https://github.com/GiulioArantes/blog-pessoal-frontend.git
 
 # 2. Navegue até o diretório do projeto
 cd blog-pessoal-frontend
@@ -55,7 +64,6 @@ cp .env.example .env.local
 # 5. Inicie o servidor de desenvolvimento
 yarn dev
 ```
-> 🔗 **Observação:** Lembre-se de executar também [o backend](https://blogpessoal-nngj.onrender.com/) desenvolvido em Spring Boot para que a aplicação funcione corretamente.
 
 ## 🤝 Contribuição
 
